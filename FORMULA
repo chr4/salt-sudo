@@ -1,0 +1,7 @@
+name: sudo
+os: Debian, Ubuntu
+os_family: Debian
+version: 201807
+release: 1
+summary: Formula for installing and configuring sudo
+description: Formula for installing and configuring sudo
