@@ -6,6 +6,6 @@ sudo:
     - user: root
     - group: root
     - mode: 440
-    - source: salt://{{ slspath }}/sudoers
+    - source: salt://{{ tpldir }}/sudoers
     - require:
       - pkg: sudo
